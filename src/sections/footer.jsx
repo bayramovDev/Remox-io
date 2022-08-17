@@ -1,9 +1,9 @@
 import React from 'react';
 
 export default function Footer() {
-    return <div className="h-[175px] sm:h-[330px] bg-[url('../public/footer_backgorund.png')] bg-cover py-6 px-6">
+    return <div className="h-[175px] sm:h-[320px] mt-3 bg-black bg-cover py-6 px-6">
         <div className="w-full h-full grid grid-cols-[50%,50%] sm:grid-cols-[70%,30%] ">
-                <div className=" flex flex-col justify-between w-full h-full items-start space-y-5 pt-8">
+                <div className=" flex flex-col justify-between w-full h-full items-start space-y-5 pt-8 pl-16">
                     <div>
                         <img src="/logo.png" className="w-[75px] sm:w-[150px]" alt="" />
                     </div>
